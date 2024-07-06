@@ -105,7 +105,29 @@ main{
         width: 40px;
     }
 }
+@media(max-width: 500px){
+    main{
+        padding-inline: 10px;
+    }
+    .container{
+        width: 100%;
+        min-width: 200px;
+    }
+    .timer_display{
+        font-size: 20px;
+    }
+    .button{
+        justify-content: space-evenly;
+    }
 
+    .button button{
+        width: 50px;
+    }
+
+    .button button:nth-child(2) img{
+        width: 30px;
+    }
+}
 @media(max-width: 320px){
     main{
         padding-inline: 10px;
@@ -151,7 +173,8 @@ main{
         width: 40px;
     }
 }
-@media(max-width: 320px){
+
+@media(max-width: 200px){
     main{
         padding-inline: 10px;
     }
