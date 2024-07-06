@@ -151,3 +151,40 @@ main{
         width: 40px;
     }
 }
+@media(max-width: 320px){
+    main{
+        padding-inline: 10px;
+    }
+    .container{
+        width: 40%;
+        min-width: 200px;
+        padding-bottom: 50px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+        background-color: transparent;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .timer_display{
+        font-size: 12px;
+    }
+    .button{
+        justify-content: space-around;
+    }
+
+    .button button{
+        width: 30px;
+    }
+    .button button:nth-child(2){
+        width: 50px;
+        height: 50px;
+    }
+    .button button img{
+        width: 15px;
+    }
+    .button button:nth-child(2) img{
+        width: 30px;
+    }
+}
